@@ -1,0 +1,500 @@
+
+div img {
+    width: 215px;
+}
+
+.span_valor_franqueadora {
+    padding-left: 10px;
+}
+.badge-warning {
+    color: #f6f7f3;
+    background-color:
+            #FFA400;
+}
+.badge-primary {
+    color: #fff;
+    background-color: #009C77;
+}
+
+.badge-danger {
+    color: #fff;
+    background-color: #dc3545;
+}
+
+.btn-group > .btn {
+    margin-right: 3px;
+}
+
+.popover {
+    white-space: pre-line;
+}
+
+.badge.badge-dark.float-right {
+
+    vertical-align: middle;
+    font-size: 17px;
+    background-color: #000;
+}
+
+.float-right-12 {
+
+    vertical-align: middle;
+    font-size: 12px;
+    background-color: #000;
+}
+
+.card-head header {
+    display: inline-block;
+    padding: 11px 8px;
+    vertical-align: middle;
+    line-height: 17px;
+    font-size: 17px !important;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.color2 {
+    color:  #0aa89e;
+}
+
+.btn-solar {
+    color: #0aa89e;
+    color: #ffffff;
+    background-color: #FF9800;
+    border-color: #0aa89e;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+}
+
+@media (min-width: 1281px) {
+
+
+    .col-sm-6-solar {
+
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+
+    }
+}
+
+#over img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.form-control-solar {
+
+    padding: 23px;
+    height: 37px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom-color:  rgba(12, 12, 12, 0.12);
+    background: white;
+    color: #0c0c0c;
+    font-size: 16px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 30px;
+
+}
+
+.btn-primary-solar{
+    border-radius: 30px;
+}
+
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+
+    .col-sm-6-solar {
+
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+
+    }
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+    .col-sm-6-solar {
+
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+    .col-sm-6-solar {
+
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .col-sm-6-solar {
+
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+
+    }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .col-sm-6-solar {
+
+        width: 50%;
+        float: none;
+        margin: 0 auto;
+
+    }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+    .col-sm-6-solar {
+
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+
+    }
+
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    opacity: 1 !important;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.menubar-pin #menubar {
+    width: 214px !important;
+}
+
+
+.result-container {
+    display: none;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.value{
+    background-color: #0aa89e;
+    width: 220px;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.simulator-v1-result {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.simulator-v1-result_info-value {
+    color: #ffc600;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: -0.48px;
+    line-height: 29px;
+}
+div.value p {
+    margin: 5px
+}
+
+.nada{
+    background-color: rebeccapurple;
+}
+
+@media (max-width: 1300px)  {
+
+    .result-container {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #simulator {
+        align-items: center;
+    }
+
+    #simulator > div {
+        margin-bottom: 15px;
+
+    }
+
+}
+
+div.vendas > div.card-head{
+    padding-left: 20px;
+}
+
+section.forma-pagamento {
+    display: flex;
+}
+
+section.forma-pagamento > div:nth-child( 1 ){
+    margin-right: 40px;
+}
+
+
+section.forma-pagamento .title{
+    position: absolute;
+    top: -11px;
+    left: 10px;
+    padding: 0px 8px !important;
+    font-size: 13px !important;
+    background-color: #fff;
+    color: rgb(28, 47, 84) !important;
+}
+
+section.forma-pagamento .sc-cLmFfZ {
+    position: relative;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 1.2 1 0%;
+    border: 1px solid rgb(200, 208, 217);
+    border-radius: 4px;
+    padding: 20px;
+}
+
+section.forma-pagamento .gEfkdM {
+    display: flex;
+    align-items: center;
+    -moz-box-align: center;
+    margin: 0px 2px;
+}
+
+
+
+.svg-inline--fa.fa-w-8 {
+    width: 0.5em;
+    vertical-align: -0.125em;
+}
+
+section.forma-produtos {
+    display: flex;
+}
+
+section.forma-produtos .title{
+    position: absolute;
+    top: -11px;
+    left: 10px;
+    padding: 0px 8px !important;
+    font-size: 13px !important;
+    background-color: #fff;
+    color: rgb(28, 47, 84) !important;
+}
+
+section.forma-produtos .sc-cLmFfZ {
+    position: relative;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 1.2 1 0%;
+    border: 1px solid rgb(200, 208, 217);
+    border-radius: 4px;
+    padding: 20px;
+}
+
+section.forma-produtos .produtos-detalhe{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    margin-top: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+    font-weight: 600;
+    font-size: 18px;
+    background: #c8d0d9;
+}
+
+.card-solar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-solar > div {
+    display: flex;
+}
+
+.card-solar div.badge-solar{
+    border-left: 2px solid #ADB2B5;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    justify-content: flex-start;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.card-solar  div.badge-solar  p {
+    text-align: center;
+}
+
+.card-solar  div.badge-solar  div {
+    text-align: center;
+    margin: 0;
+}
+
+.card-solar  div.badge-solar div span:first-child {
+    font-weight: 600;
+}
+
+.card-solar  .btn-new-proposta {
+    display: flex;
+    align-items: center;
+}
+
+.card-solar  .badge-royalties p{
+    margin-top: -9px; !important;
+}
+
+.card-solar   p{
+    margin: 0;
+}
+
+.badge-solar p:nth-child(-n+2){
+    margin: auto;
+}
+
+.badge-solar span.royalties{
+    margin-top: -9px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
